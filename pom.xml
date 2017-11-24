@@ -207,6 +207,12 @@
                 <configuration>
                     <classifier>exec</classifier>
                     <executable>true</executable>
+                    <requiresUnpack>
+                        <dependency>
+                            <groupId>org.jetbrains.kotlin</groupId>
+                            <artifactId>kotlin-compiler</artifactId>
+                        </dependency>
+                    </requiresUnpack>
                 </configuration>
                 <executions>
                     <execution>
